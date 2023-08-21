@@ -2,7 +2,7 @@
 
 <img src="https://cdn.worldvectorlogo.com/logos/couchbase.svg" width="300" />
 
-Testcontainers module for Couchbase. [Couchbase](https://www.couchbase.com/) is a document oriented NoSQL database.
+Testcontainers module for Couchbase. [Couchbase](https://www.couchbase.com/) is a document-oriented NoSQL database.
 
 ## Usage example
 
@@ -18,7 +18,7 @@ Running Couchbase as a stand-in in a test:
     [Container definition](../../../modules/couchbase/src/test/java/org/testcontainers/couchbase/CouchbaseContainerTest.java) inside_block:container_definition
     <!--/codeinclude-->
 
-3. create an cluster:
+3. create a cluster:
     <!--codeinclude-->
     [Cluster creation](../../../modules/couchbase/src/test/java/org/testcontainers/couchbase/CouchbaseContainerTest.java) inside_block:cluster_creation
     <!--/codeinclude-->
